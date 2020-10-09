@@ -12,10 +12,16 @@ in
     version = "1.0.0";
     src = ./.;
     buildInputs = [
+      opkgs.core
       opkgs.lambdasoup
       opkgs.lwt
       opkgs.cohttp
       opkgs.cohttp-lwt-unix
+      opkgs.re2
+      opkgs.ppx_jane
+      opkgs.ppx_deriving_yojson
+      opkgs.opium
+      opkgs.opium_kernel
     ];
   };
 }

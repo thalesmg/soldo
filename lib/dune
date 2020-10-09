@@ -1,0 +1,10 @@
+(library
+ (name soldo)
+ (preprocess (pps ppx_jane ppx_deriving_yojson))
+ (libraries
+   core
+   lwt
+   cohttp
+   cohttp-lwt-unix
+   lambdasoup
+   ppx_deriving_yojson.runtime))

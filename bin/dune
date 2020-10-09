@@ -1,4 +1,7 @@
 (executable
-  (name main)
-  (libraries
-    lambdasoup))
+ (name main)
+ (libraries
+   soldo
+   yojson
+   opium
+   opium_kernel))

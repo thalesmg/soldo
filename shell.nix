@@ -8,5 +8,6 @@ in
 nixpkgs.mkShell {
   buildInputs = soldo.buildInputs ++ [
     opkgs.utop
+    nixpkgs.ocamlformat
   ];
 }
