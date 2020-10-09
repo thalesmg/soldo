@@ -7,4 +7,6 @@
    cohttp
    cohttp-lwt-unix
    lambdasoup
-   ppx_deriving_yojson.runtime))
+   ppx_deriving_yojson.runtime
+   opium
+   opium_kernel))

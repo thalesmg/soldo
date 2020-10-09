@@ -19,6 +19,8 @@ type salary_line = {
 
 let teste = read_file "/tmp/bah.htm" |> parse
 
+let parse_soup = parse
+
 let parse_date str =
   try
     Scanf.sscanf str "%02d.%02d.%04d"
