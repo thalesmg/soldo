@@ -1,3 +1,6 @@
+{ tag ? "latest"
+}:
+
 let
   sources = import ./nix/sources.nix;
   nixpkgs = import sources.nixpkgs {};
@@ -20,7 +23,7 @@ let
 in
 nixpkgs.dockerTools.buildImage {
   name = "soldo";
-  tag = "latest";
+  tag = tag;
   contents = [
     services-file
   ];
