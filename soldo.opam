@@ -1,0 +1,23 @@
+opam-version: "2.0"
+version: "1.0.0"
+synopsis: "Salário mínimo numa API"
+maintainer: "Thales Macedo Garitezi <thalesmg@gmail.com>"
+authors: "Thales Macedo Garitezi <thalesmg@gmail.com>"
+license: "GPLv3"
+homepage: "https://github.com/thalesmg/soldo"
+bug-reports: "no"
+depends: []
+build: [
+  # ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "build"]
+  # ["./configure" "--prefix=%{prefix}%"]
+  # [make]
+]
+install: [
+  # make "install"
+  "dune" "build"
+]
+dev-repo: "git+https://github.com/thalesmg/soldo.git"
+url {
+  src: "git+https://github.com/thalesmg/soldo.git"
+}

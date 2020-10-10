@@ -17,8 +17,6 @@ type salary_line = {
     value: int
   } [@@deriving sexp, yojson]
 
-let teste = read_file "/tmp/bah.htm" |> parse
-
 let parse_soup = parse
 
 let parse_date str =
