@@ -1,4 +1,52 @@
 {
+    "aws-lambda-ocaml-runtime": {
+        "branch": "master",
+        "description": "An OCaml custom runtime for AWS Lambda",
+        "homepage": null,
+        "owner": "anmonteiro",
+        "repo": "aws-lambda-ocaml-runtime",
+        "rev": "7869c29a6fec537b6b5526f21c592854a72fc269",
+        "sha256": "19hrsm6y1gw0w6xhmjvyffjswxcgwv51j6z93dyz1fjihgc0zb26",
+        "type": "tarball",
+        "url": "https://github.com/anmonteiro/aws-lambda-ocaml-runtime/archive/7869c29a6fec537b6b5526f21c592854a72fc269.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "faraday": {
+        "branch": "master",
+        "description": "Serialization library built for speed and memory efficiency",
+        "homepage": null,
+        "owner": "inhabitedtype",
+        "repo": "faraday",
+        "rev": "cc3e6316858117497fbba77bfd5860d6516136c4",
+        "sha256": "0j09g3lr7l8rwgm09k4kg9npljg5jnc2ifnhgzswm28k6jc4af93",
+        "type": "tarball",
+        "url": "https://github.com/inhabitedtype/faraday/archive/cc3e6316858117497fbba77bfd5860d6516136c4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "gluten": {
+        "branch": "master",
+        "description": "Reusable runtime library for network protocols",
+        "homepage": null,
+        "owner": "anmonteiro",
+        "repo": "gluten",
+        "rev": "2c00510658a3d314ea9b53cf8ea7413ade445b24",
+        "sha256": "10x2b8g9xc6aj394w7x4vdcsh0jix0ahi57isr4bbz1p4jni3aq5",
+        "type": "tarball",
+        "url": "https://github.com/anmonteiro/gluten/archive/2c00510658a3d314ea9b53cf8ea7413ade445b24.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "httpaf": {
+        "branch": "master",
+        "description": "A high performance, memory efficient, and scalable web server written in OCaml",
+        "homepage": null,
+        "owner": "inhabitedtype",
+        "repo": "httpaf",
+        "rev": "a783ec01ec7e31f4d5e9cb833b890b7f5b94f169",
+        "sha256": "0x1fcfzk00q2zghkx0gq1vx6bs5h0r8y7zqmh3spg3wxdcnwwmrb",
+        "type": "tarball",
+        "url": "https://github.com/inhabitedtype/httpaf/archive/a783ec01ec7e31f4d5e9cb833b890b7f5b94f169.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -21,6 +69,30 @@
         "sha256": "107f1iq96cs6j7pmwi8628j857jn5gxqfqcbgmw3s2xf6irjjgjw",
         "type": "tarball",
         "url": "https://github.com/NixOS/nixpkgs/archive/30e98a4fd67c71277ee95c58c8fd691b69a09183.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ocaml-h2": {
+        "branch": "master",
+        "description": "An HTTP/2 implementation written in pure OCaml",
+        "homepage": "",
+        "owner": "anmonteiro",
+        "repo": "ocaml-h2",
+        "rev": "e92be081d775011cc791c35538a33a5334eaa96a",
+        "sha256": "0wh74c184kg1xh7zyw10vr9774k3pq78w329aiba8iifagmq15x5",
+        "type": "tarball",
+        "url": "https://github.com/anmonteiro/ocaml-h2/archive/e92be081d775011cc791c35538a33a5334eaa96a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "piaf": {
+        "branch": "master",
+        "description": "Client library for HTTP/1.X / HTTP/2 written entirely in OCaml.",
+        "homepage": "",
+        "owner": "anmonteiro",
+        "repo": "piaf",
+        "rev": "fc22870f1d9b7a25b6e71ae56234cbf4999d1d13",
+        "sha256": "126adv5nvnz2jz2clvrz195kajzrn4ib63za4kvf3yz1n2dqmwr8",
+        "type": "tarball",
+        "url": "https://github.com/anmonteiro/piaf/archive/fc22870f1d9b7a25b6e71ae56234cbf4999d1d13.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
